@@ -1,0 +1,131 @@
+/*odevin niteligi ile uyumlu olsun diye boyle bir ayrim yaptim.Normalde asla kullanmam. */
+
+/*hiyerarsik secici kullanimi*/ 
+article > h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section > p {
+    background-color: lightblue;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: initial;
+    font-family: sans-serif;
+}
+
+header > article{
+    background-color: lightblue;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: initial;
+    font-family: sans-serif;
+}
+
+details > p{
+    background-color: chartreuse;
+}
+
+/*id secici kullanimi*/
+#govde{
+    background-color: rgb(218, 225, 233);
+}
+
+#hakkimda-foto{
+    height: 150px;
+    width: 150px;
+    float: right;
+    margin: 10px;
+}
+
+#basbuyuk {
+    text-align: center;
+    background-color: lightcyan;
+}
+
+#baskucuk {
+    text-align: center;
+    background-color: lightcyan;
+}
+
+#grida { grid-area: left; }
+
+#gridb { grid-area: right; }
+
+
+/*class secici kullanimi*/
+
+.flex {
+    display: flex;
+    background-color:bisque;
+}
+
+
+.flex > section {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+
+
+.grid {
+    display: grid;
+    grid-template-areas:
+         'left right';
+    grid-gap: 10px;
+    background-color: darkgray;
+    padding: 10px;
+    margin: 10px;
+  }   
+ 
+ /*grup secici kullanimi*/
+ .sosyal img,.sosyal span {
+    text-align: right;
+     width: 60px;
+     height: 60px;
+ }
+ 
+#grida, #gridb {
+    background-color:wheat;
+    margin: 5px;
+    padding: 5px;
+    border: solid black;
+    
+}
+
+#hobi, #beceri, #aile , #basari, #meslek {
+    background-color: rgb(236, 155, 155);
+}
+
+/*pseudo secici kullanimi*/
+
+table :first-child {
+    font-style: italic;
+    font-size: 20px;
+}
+
+#meslek first-child {
+    font: outline;
+}
+
+/* ====================*/
+
+table{
+    border: black;
+    border-radius: initial;
+    border: 3px;
+    font-size: 12px;
+    width: 100%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+
+video {
+    width:1400px ;
+    height: 360px;
+}

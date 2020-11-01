@@ -1,0 +1,46 @@
+body:hover {
+    background-color: rgb(0, 0, 0); /*bayrak uzerine maouse ile gelince belirginlesmesi icin */
+  }
+  
+  main{  /* bayragi ortalayabilmek icin */
+    position: relative;
+    top: 50px;
+    margin: auto;
+    
+   }
+  
+  main{
+      position: absolute;
+      text-align: center;
+  }
+  
+  .bayrak-kont {
+    background-color: red;
+    width: 640px;
+    height: 640px;
+    position: relative;     /* bayragin icerisindeki artilarin background sinirlari icersinde kalmasi icin relative uyguladim*/
+    box-shadow: 10px 10px 5px grey; /* kirmiziya uygun grey ile arka planda bir golge olusturdum */
+     
+  }
+  
+  .hacy {
+  background-color: white;   
+  position: relative;            /*artilarin konumunu belirleyebilmek icin absoulute kullandim.*/
+  width: 400px;
+  height: 120px;
+  left: 120px; /*kutunun siniri bayrak oldugu icin sade left */
+  top: 260px;
+  bottom: 260px;
+   
+  }
+  
+  .hacd {
+  background-color: white;   
+  position: absolute;            /*artilarin konumunu belirleyebilmek icin absoulute kullandim.*/
+  width: 120px;
+  height: 400px;
+  right: 260px;  /*kutunun siniri bayrak oldugu icin sade right */
+  top: 120px;
+  bottom: 120px;
+  
+  }

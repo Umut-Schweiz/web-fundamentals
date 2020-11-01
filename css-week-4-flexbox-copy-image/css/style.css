@@ -1,0 +1,204 @@
+/*********************************************
+General Styles
+*********************************************/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    padding: auto;
+}
+
+/********************
+Layout
+********************/
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #F6F6F8;
+}
+#sol-ust{
+    width: 14vh;
+    height: 13vh;
+    position: relative;
+    top: 2vh;
+    left: 20vh;
+    border-radius: 50%;
+}
+#sol-alt{
+    width: 35vh;
+    height: 30vh;
+    position: relative;
+    top: 47vh;
+    right: 24vh;
+    border-radius: 50%;
+}
+#sag-ust{
+    width: 18vh;
+    height: 18vh;
+    float: left;
+    bottom: 4vh;
+    right: -45vh;
+    position: relative;
+    border-radius: 50%;
+}
+#sag-alt{
+    width: 35vh;
+    height: 30vh;
+    position: relative;
+    top: 600px;
+    left: 320px; 
+    border-radius: 50%;
+}
+#header{
+    margin: 45px;
+    display: flex;
+    flex-direction: column;
+}
+#geri-ikonu{
+    float: left;
+    margin: 0px;
+}
+#menu-ikonu{
+    float: right;
+    margin: 0px;
+}
+.sosyal-media{
+    display: flex;
+    justify-content: center;
+ }
+ .search-ikons{
+    display: flex;
+}
+#profil-kutusu{
+    background-color: #FEFEFE;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    position: relative;
+    top: -75px;
+    height: 282px;
+    border-radius: 15px;
+}
+.setting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+}
+#footer-menu{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -5px;
+    background-color: #F4F5F5;
+}
+.header-ust{
+    flex: 2;
+}
+.govde{
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+}
+.search-ikons{
+    flex: 1;
+}
+
+/********************
+Colors
+********************/
+.balon{
+    background-color: #62BAED;
+}
+article > figure > span :only-child {
+    color:#BEDCF6;
+}
+i{
+    color: #B4DAF5;
+}
+#footer-menu{
+    background-color: #FEFEFE;
+}
+.profil-name{
+    color: #A5A6A7;
+}
+.media-ikon > i{
+    color: #8F8F91;
+}
+#mail{
+    background-color: #5BA4F6;
+}
+#anahtar{
+    background-color: #5CE7B4;
+}
+#detay{
+    background-color: #F988AD;
+}
+#cikis{ 
+    background-color: #F4DC7D;
+}
+.setting-text{
+    color:#7E7F81 ;
+}
+figure > span > i{
+    color: #CFCED0;
+}
+.search-ikons > figure > i{
+    color:#7C7D7F;
+}
+
+/********************
+Components
+********************/
+#header-ust{
+    height: 172px;
+    padding: 20px;
+    background-color:#3586E8;
+}
+#govde{
+    background-color: #E0E0E0;
+    height: 526px;
+}
+p :only-child{
+    font: bolder;
+    color: #C0BDC2;
+}
+.media-ikon{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.text , #setting-menu{
+    position: relative;
+    top: -82px;
+    margin: 9px;
+}
+#setting-menu{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: #FEFEFE;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: outset;
+    border-radius: 5px;
+}
+.picture-profil > span > img{
+    position: relative;
+    top: -54px;
+    border-radius: 50%;
+    width: 15vh;
+    height: 18vh;   
+}
+.profil-name, .sosyal-medias, .profil-sozu{
+    position: relative;
+    top: -75px;
+}
+.setting-altigen > i{    
+    border-radius: 50%;
+    width: 50px;
+    height: '\f26e';
+    color: white;
+    text-align: center;
+}

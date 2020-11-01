@@ -1,0 +1,155 @@
+/********************
+Layout
+********************/
+.icerik{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin: 4vh;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px #A5A6A7;
+    border-top: solid 1px #A5A6A7;
+    padding-top: 20px;
+}
+
+/********************
+Colors
+********************/
+body{
+    background-color: #f3f4f5;
+}
+header{
+    background-color: white;
+}
+
+/********************
+Components
+********************/
+
+nav > ul  > li > a > img{
+    width: 40px;
+    height: 40px;
+}
+
+nav > ul {
+    list-style: none;
+    margin: auto;
+}
+
+nav{
+    position: relative;
+    top: -8px;
+}
+
+#sag-ust-menu{
+    display: inline-flex;  
+}
+
+#buyuk-logo > img{
+    width: 25vw;
+    height: 30vh;
+    border-radius: 50%;
+    border: solid 2px grey;
+}
+
+footer > div > ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    border-top: solid 1px;
+    text-decoration: none;
+    margin-right: 20vh;
+    margin-left: 20vh;
+}
+
+#profil-adresi{
+    font-size: 3vw;
+}
+
+.footer-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-top: 1px solid rgb(145, 139, 139);
+    overflow: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.footer-list > li > a{
+    text-decoration: none;
+    padding: 16px 24px;
+    display: inline-block;
+}
+
+.footer-list > li > a.active{
+    border-top: 1px solid rgb(14, 14, 15);
+}
+
+.footer-list > li > a:hover{
+    border-top: 1px solid black;
+    color: rgb(32, 31, 31);
+}
+
+.profil-bilgileri{
+    display: flex;
+    justify-content: space-between;
+}
+
+.takip-bilgileri{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profil-bilgileri , .takip-bilgileri , .web-adres{
+    font-weight: bold;
+}
+
+#hi-coder-site > a{
+    border: #264E7C;
+    text-decoration: none;
+}
+
+body :nth-child(3) > div{
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+
+#hi-coder-menu > img{
+    border: solid 1px
+}
+
+#hi-coder-menu > a >img{
+    border-radius: 50%; 
+    border:solid 1px;
+    width: 35px;
+    height: 35px;
+}
+
+div > input{
+    padding: 3px 32px;
+}
+
+#arama-kutusu > i{
+    position: relative;
+    top: le;
+    left: 28px;
+    color: grey;
+}
+
+#profil-duzenleme{
+    padding: 28px;
+}
+
+#profil-setting-ikon{
+    position: relative;
+    top: 32px;
+}
+
+#icon-home, #icon-ileri, #icon-kalp, #ikon-pusula, #ikon-logo{
+    margin-left: 5px;
+    margin-right: 5px;
+} 
